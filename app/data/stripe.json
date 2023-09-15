@@ -1,0 +1,31 @@
+{
+  "id": "cus_9s6XGDTHzA66Po",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1483565364,
+  "currency": "usd",
+  "default_source": "card_1NF1hy2eZvKYlo2Cjk58zMRB",
+  "delinquent": false,
+  "description": "My First Test Customer (created for API docs at https://www.stripe.com/docs/api)",
+  "discount": null,
+  "email": null,
+  "invoice_prefix": "C6FB255",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null,
+    "rendering_options": null
+  },
+  "livemode": false,
+  "metadata": {
+    "order_id": "6735"
+  },
+  "name": null,
+  "next_invoice_sequence": 3,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "tax_exempt": "none",
+  "test_clock": null
+}

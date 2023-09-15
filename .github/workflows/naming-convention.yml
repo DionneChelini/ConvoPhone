@@ -1,0 +1,20 @@
+name: Enforce Naming Convention
+
+on:
+  push:
+    branches-ignore:
+      - 'main'  # Exclude the main branch here, modify as needed
+      - 'master'  # Exclude the main branch here, modify as needed
+
+jobs:
+  enforce-convention:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Branch Name
+        run: |
+          branch_name=$(git branch --show-current)
+          if [[ ! $branch_name =~ ^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|merge|init)\/.* ]]; then
+            echo "Invalid branch name. Branch names must follow the convention."
+            exit 1
+          fi

@@ -1,0 +1,13 @@
+.cache/
+build
+dist
+/.mf
+.DS_Store
+.parcel-cache
+tailwind.config.js
+index.html
+/app/styles/app.css
+.vscode
+.checksums
+/app/.eslintcache
+node_modules/
